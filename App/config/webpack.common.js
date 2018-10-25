@@ -85,9 +85,9 @@ module.exports = {
     },
 
     plugins: [
-        new CleanWebpackPlugin([path.resolve('./dist')]),
+        new CleanWebpackPlugin([path.resolve('.././docs')]),
         new CopyWebpackPlugin([
-            { from: path.resolve('./assets/img/favicons'), to: path.resolve('./dist') },
+            { from: path.resolve('./assets/img/favicons'), to: path.resolve('.././docs') },
         ]),
         new HtmlWebpackPlugin({
             title         : 'Logan',

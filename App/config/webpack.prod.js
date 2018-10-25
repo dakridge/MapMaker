@@ -14,6 +14,6 @@ module.exports = merge(common, {
 
     output: {
         filename: '[name].min.js',
-        path    : path.resolve('./dist'),
+        path    : path.resolve('.././docs'),
     },
 });
